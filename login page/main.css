@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #FDE860;
+}
+
+.landing-page {
+  width: 1072;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0px;
+  padding-right: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FDE860;
+  margin: 0px;
+}
+
+.landing-page .promotion-section {
+  width: 660px;
+  height: 535px;
+  background-color: #FDE860;
+}
+
+.landing-page .log-in {
+  background-color: black;
+  height: 535px;
+}
+
+.landing-page .log-in-form {
+  margin-top: 150px;
+  height: 350px;
+  padding: 0px 30px;
+  width: 100%;
+}
+
+.landing-page .log-in-form .password {
+  height: 38px;
+}
+
+.landing-page .log-in-form .sign-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing-page .log-in-form span {
+  background-color: #FDE860;
+  border: none;
+  width: 37px;
+  height: 38px;
+}
+
+.landing-page .log-in-form .brand-name {
+  color: #FDE860;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.landing-page .log-in-form p {
+  color: #FDE860;
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.landing-page .log-in-form a {
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+}
+
+@media (max-width: 1000px) {
+  .landing-page .promotion-section {
+    width: 50%;
+    height: 535px;
+  }
+  .landing-page .promotion-section img {
+    height: 535px;
+  }
+  .log-in {
+    width: 330px;
+  }
+  .input-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 700px) {
+  .promotion-section {
+    display: none;
+  }
+  .log-in {
+    display: block;
+    width: 70%;
+    height: 80vh;
+  }
+  p, a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */

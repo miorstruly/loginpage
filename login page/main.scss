@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #FDE860;
+
+}
+
+.landing-page{
+    width: 1072;
+    height: 100vh;
+    display: flex;
+    margin-right: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDE860;
+    margin: 0px;
+    
+    .promotion-section{
+        width: 660px;
+        height: 535px;
+        background-color: #FDE860;
+
+
+    }
+    
+
+    .log-in{
+           background-color: black;
+           height: 535px;
+        }
+    .log-in-form{
+            margin-top: 150px;
+            height: 350px;
+            padding: 0px 30px;
+            width: 100%;
+
+          .password{
+            height: 38px;
+          }
+
+          .sign-in{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+
+          span{
+              background-color: #FDE860;
+              border: none;
+              width: 37px;
+              height: 38px;
+          }
+            
+
+            .brand-name {
+                color: #FDE860;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                font-style: italic;
+                font-weight: 100;
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            p{
+                color: #FDE860;
+                text-align: center;
+                font-style: italic;
+                font-weight: 100;
+                font-size: 15px;
+
+            }
+            a{
+                color: #fff;
+                font-size: 13px;
+                font-style: normal;
+
+
+            }
+    }
+
+
+    
+}
+
+
+@media (max-width: 1000px) {
+
+    .landing-page .promotion-section {
+        width: 50%;
+        height: 535px;
+
+        img{
+            height: 535px;
+
+        }
+    }
+    .log-in{
+        width: 330px;
+
+    }
+
+    .input-text{
+        font-size: 12px;
+    }
+
+}
+@media (max-width: 700px) {
+    .promotion-section{
+        display: none;
+    }
+
+    .log-in{
+        display: block;
+        width: 70%;
+        height: 80vh;
+    }
+
+    p, a{
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
